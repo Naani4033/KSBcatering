@@ -3,6 +3,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
+import Logo from '../assets/Picture1.png';
 
 const Header: React.FC = () => {
   const { t } = useTranslation();
@@ -33,14 +34,14 @@ const Header: React.FC = () => {
         scrolled ? 'bg-primary shadow-md py-2' : 'bg-transparent py-4'
       }`}
     >
-{/*       <div className="container mx-auto px-4 flex justify-between items-center">
+     <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="flex items-center space-x-2">
           <img
-            src="/assets/Picture1.png"
+            src={Logo}
             alt="Logo"
             className="h-10 w-10 rounded-full shadow"
-          /> */}
+          />
           <span className="text-accent-light font-heading text-xl md:text-2xl font-bold">
             {language === 'en' ? 'KSB A-Z Catering' : 'KSB A-Z கேட்டரிங்'}
           </span>
