@@ -37,7 +37,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <a href="#" className="flex items-center space-x-2">
           <img
-            src="/public/Picture1.png"
+            src="/assets/Picture1.png"
             alt="Logo"
             className="h-10 w-10 rounded-full shadow"
           />
