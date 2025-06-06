@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import UniqueFeatures from './components/UniqueFeatures';
 import EventTypes from './components/EventTypes';
- import Gallery from './components/Gallery';
+ // import Gallery from './components/Gallery';
 //  import Testimonials from './components/Testimonials';
  import SocialConnect from './components/SocialConnect';
  import AdditionalServices from './components/AdditionalServices';
@@ -27,7 +27,7 @@ function App() {
       <Services />
       <UniqueFeatures />
       <EventTypes />
-      <Gallery />
+{/*       <Gallery /> */}
       {/* <Testimonials /> */}
       <SocialConnect />
       <AdditionalServices />
